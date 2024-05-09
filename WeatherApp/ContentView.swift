@@ -40,7 +40,7 @@ struct ContentView: View {
                                    imageName: "sunset.fill",
                                     temperature: 60)
                     
-                    WeatherDayView(daysOfWeek: "SAT",
+                    WeatherDayView(daysOfWeek: "SUN",
                                    imageName: "snowflake",
                                     temperature: 25)
                   
