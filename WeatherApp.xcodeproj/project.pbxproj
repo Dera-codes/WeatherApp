@@ -13,6 +13,7 @@
 		043D77872BE68BD4001AFD5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043D77862BE68BD4001AFD5D /* Preview Assets.xcassets */; };
 		043D778E2BE6ACD0001AFD5D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D778D2BE6ACD0001AFD5D /* SwiftUIView.swift */; };
 		043D77902BEBC236001AFD5D /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D778F2BEBC236001AFD5D /* WeatherButton.swift */; };
+		04715A8B2BFCAA1000716DD4 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04715A8A2BFCAA1000716DD4 /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		043D77862BE68BD4001AFD5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		043D778D2BE6ACD0001AFD5D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		043D778F2BEBC236001AFD5D /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
+		04715A8A2BFCAA1000716DD4 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		043D777E2BE68BCE001AFD5D /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				04715A892BFCA9F400716DD4 /* Model */,
 				043D777F2BE68BCE001AFD5D /* WeatherAppApp.swift */,
 				043D77812BE68BCE001AFD5D /* ContentView.swift */,
 				043D77832BE68BD4001AFD5D /* Assets.xcassets */,
@@ -71,6 +74,14 @@
 				043D77862BE68BD4001AFD5D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04715A892BFCA9F400716DD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04715A8A2BFCAA1000716DD4 /* WeatherModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 				043D77802BE68BCE001AFD5D /* WeatherAppApp.swift in Sources */,
 				043D77902BEBC236001AFD5D /* WeatherButton.swift in Sources */,
 				043D778E2BE6ACD0001AFD5D /* SwiftUIView.swift in Sources */,
+				04715A8B2BFCAA1000716DD4 /* WeatherModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
