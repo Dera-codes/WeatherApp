@@ -18,7 +18,7 @@ struct ContentView: View {
             
             VStack{
                 
-                CityTextView(cityName: "Cupertino, CA")
+                CityTextView(cityName: "Lagos, NG")
                 
                 MainWeatherStatusView(imageName:isNight ? "moon.stars.fill" : "cloud.sun.fill",
                                       temperature: 76)
@@ -33,15 +33,15 @@ struct ContentView: View {
                                    temperature: 86)
                     
                     WeatherDayView(daysOfWeek: "THU",
-                                   imageName: "wind.snow",
-                                   temperature: 55)
+                                   imageName: "cloud.rain.fill",
+                                   temperature: 30)
                     
                     WeatherDayView(daysOfWeek: "FRI",
                                    imageName: "sunset.fill",
                                     temperature: 60)
                     
-                    WeatherDayView(daysOfWeek: "SUN",
-                                   imageName: "snowflake",
+                    WeatherDayView(daysOfWeek: "SAT",
+                                   imageName: "cloud.bolt.rain.fill",
                                     temperature: 25)
                   
                     
